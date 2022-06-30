@@ -1,1 +1,1 @@
-# visx-pie-chart-simple
+# visx pie chart
