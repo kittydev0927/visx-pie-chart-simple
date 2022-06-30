@@ -24,7 +24,7 @@ export default function Home() {
               pieValue={(data) => data.amount * data.inUSD}
               outerRadius={half}
               innerRadius={({ data }) => {
-                const size = active && active.symbol == data.symbol ? 60 : 55;
+                const size = active && active.symbol == data.symbol ? 70 : 65;
                 return half - size;
               }}
               padAngle={0.01}
